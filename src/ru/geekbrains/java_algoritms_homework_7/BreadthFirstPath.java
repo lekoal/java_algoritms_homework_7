@@ -2,7 +2,7 @@ package ru.geekbrains.java_algoritms_homework_7;
 
 import java.util.LinkedList;
 
-public class BreadthFirstPath extends SearchPath{
+public class BreadthFirstPath extends SearchPath{ // Поиск в ширину с наследованием
 
     public BreadthFirstPath(Graph g, int source) {
         super(g, source);

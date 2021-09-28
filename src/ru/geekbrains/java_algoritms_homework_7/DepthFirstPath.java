@@ -1,6 +1,6 @@
 package ru.geekbrains.java_algoritms_homework_7;
 
-public class DepthFirstPath extends SearchPath{
+public class DepthFirstPath extends SearchPath{ // Поиск в глубину с наследованием
 
     public DepthFirstPath(Graph g, int source) {
         super(g, source);

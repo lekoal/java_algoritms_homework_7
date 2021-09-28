@@ -2,7 +2,7 @@ package ru.geekbrains.java_algoritms_homework_7;
 
 import java.util.LinkedList;
 
-public class SearchPath {
+public class SearchPath { // Родительский класс для поисков в глубину и в ширину
     public boolean[] marked;
     public int[] edgeTo;
     public int source;

@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Graph graph = new Graph(10);
+        Graph graph = new Graph(10); // Создание графа с десятью вершинами
 
         graph.addEdge(0, 1);
         graph.addEdge(0, 4);
@@ -28,7 +28,7 @@ public class Main {
 //        System.out.println(dfp.hasPathTo(0));
 //        System.out.println(dfp.pathTo(0));
 
-        BreadthFirstPath bfp = new BreadthFirstPath(graph, 5);
+        BreadthFirstPath bfp = new BreadthFirstPath(graph, 5); // Поиск кратчайшего пути поиском вы ширину
         System.out.println(bfp.hasPathTo(6));
         System.out.println(bfp.pathTo(6));
     }
